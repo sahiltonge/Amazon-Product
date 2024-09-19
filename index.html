@@ -1,2 +1,103 @@
-<h1>This is my first heading</h1>
-<h2>Tis is my second heading</h2>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boat Smartwatches</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+
+      header {
+        background-color: #232f3e;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .product-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+      }
+
+      .product-card {
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .product-card img {
+        width: 100%;
+        height: auto;
+        max-width: 250px;
+        margin-bottom: 10px;
+      }
+
+      .product-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      .product-price {
+        color: #b12704;
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+
+      .buy-button {
+        display: inline-block;
+        padding: 10px 15px;
+        background-color: #ff9900;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 5px;
+      }
+
+      .buy-button:hover {
+        background-color: #e47911;
+      }
+
+      footer {
+        background-color: #232f3e;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Boat Smartwatches</h1>
+      <p>
+        Explore the latest collection of Boat smartwatches with exclusive deals!
+      </p>
+    </header>
+
+    <section class="product-grid">
+      <!-- Product 1 -->
+      <div class="product-card">
+        <!-- Replace with actual image URL -->
+        <img
+          src="https://cdn.glitch.global/fe041bf1-6e24-458b-bca3-f1579f25b139/Watch1.jpg?v=1725969699757"
+          alt="boAt Wave Sigma 3"
+        />
+        <h2 class="product-title">boAt Wave Sigma 3</h2>
+        <p class="product-price">$17.9</p>
+        <!-- Replace the href with your Amazon affiliate link -->
+        <a href="https://amzn.to/3MExkdF" class="buy-button">Buy on Amazon</a>
+        <!-- Comment: Replace "your-affiliate-id" with your actual Amazon Affiliate ID -->
+      </div>
+    </section>
+  </body>
+</html>
